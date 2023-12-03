@@ -29,10 +29,9 @@ $>./repeat_alpha "" | cat -e
 $
 $>
 */
-
 #include <unistd.h>
 
-int	get_letter_count(char c) // Return the number of times the character should be printed
+int	get_letter_count(char c) // nb of times the char should be printed
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 'a' + 1);
@@ -43,9 +42,9 @@ int	get_letter_count(char c) // Return the number of times the character should 
 
 int	main(int argc, char **argv)
 {
-	int i;
-	int count;
-	
+	int	i;
+	int	count;
+
 	if (argc == 2)
 	{
 		i = 0;

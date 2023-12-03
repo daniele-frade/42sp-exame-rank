@@ -20,18 +20,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char	*str = "Hello World";
-// 	printf ("%d\n", ft_strlen(str));
-// 	printf ("%lu\n", strlen(str));
-// 	return (0);
-// }
-
-
-

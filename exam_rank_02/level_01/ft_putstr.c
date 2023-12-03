@@ -27,13 +27,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-
-// #include <stdio.h>
-
-// int	main()
-// {
-// 	char	*str = "Hello World!\n";
-// 	ft_putstr(str);
-// 	puts(str);
-// 	return (0);
-// }

@@ -16,7 +16,7 @@ The function returns the largest number found in the array.
 If the array is empty, the function returns 0.
 */
 
-int	max(int* tab, unsigned int len)
+int	max(int	*tab, unsigned int len)
 {
 	int	max;
 	int	i;
@@ -34,7 +34,7 @@ int	max(int* tab, unsigned int len)
 		}
 		return (max);
 	}
-	return (0);	
+	return (0);
 }
 
 // Option 2:
