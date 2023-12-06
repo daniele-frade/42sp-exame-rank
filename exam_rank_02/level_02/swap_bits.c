@@ -20,3 +20,18 @@ _____________
      / \
  0001 | 0100
 */
+
+unsigned char   swap_bits(unsigned char octet)
+{
+	return ((octet >> 4) | (octet << 4));
+}
+
+// Other option:
+// unsigned char   swap_bits(unsigned char octet)
+// {
+//     unsigned char new_octet;
+
+//     new_octet = (octet >> 4);
+//     new_octet = new_octet + (octet << 4);
+//     return (new_octet);
+// }

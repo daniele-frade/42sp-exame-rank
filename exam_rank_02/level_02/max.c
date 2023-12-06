@@ -41,15 +41,10 @@ int	max(int	*tab, unsigned int len)
 // int	max(int *tab, unsigned int len)
 // {
 // 	int max;
-
 // 	if (len > 0)
 // 	{
 // 		max = tab[--len]; 
-// 		// pré-decremento: aqui o valor de len muda (considerando que seja 4, muda para 3), isso é feito para conseguir acessar o índice
-//		// se fosse [len - 1] não mudaria o valor de len, mas ainda assim funcionaria, pq?
 // 		while (len-- != 0) 
-//		// aqui checa o valor atual e entra no while já decrementado (considerando que agora é 3, entra como 2)
-//		// isso é feito para que seja possível acessar o índice 0, ele checa o valor atual, por exemplo 1(true), mas entra com o valor 0
 // 		{
 // 			if (tab[len] > max)
 // 				max = tab[len];
